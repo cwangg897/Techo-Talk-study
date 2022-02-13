@@ -23,9 +23,6 @@
 여기서 DB 클러스터라 함은 하나의 DB을 복수개의 서버(또는 가상 서버)상에 구축되는 경우를 지칭한다.
 DB 클러스터와 비슷한 형태로 복수개의 독립된 DB가 서러 연계되는 경우가 있다. 
 
-
-### 클러스터링 종류
-
 #### Active-Active
 <img src="https://user-images.githubusercontent.com/79621675/153740196-e96fc020-d849-44d5-8856-e9a88da48d69.png" width=400/> <br>
 <pre>
@@ -46,7 +43,7 @@ DB 클러스터와 비슷한 형태로 복수개의 독립된 DB가 서러 연�
 </pre>
 
 
-#### 리플리케이션(Replication)
+### 리플리케이션(Replication)
 <img src="https://user-images.githubusercontent.com/79621675/153740394-1b1a133a-f928-4a2e-832b-a04355acb962.png" width=400/> <br>
 <pre>
 저장된 데이터가 손실되면 어떻게 하지? 라는생각에서 나온것이다.
@@ -55,7 +52,7 @@ DB 클러스터와 비슷한 형태로 복수개의 독립된 DB가 서러 연�
 더 나아가 Slave db를 백업용으로만 안사용하고 부하 분산 용도로 사용하기도 한다 (read용도로만 = select)
 </pre>
 
-#### 샤딩
+### 샤딩
 <img src="https://user-images.githubusercontent.com/79621675/153740511-04bf00e8-b264-44c5-8c2d-2dfef39f3724.png" width=400/> <br>
 <pre>
 데이터가 쌓여서 너무 많아서 검색이 느린데 더 빠르게 할 수 있는 방법은 없을까? 라는 문제 (데이터 검색을 빠르게하기위해서)
