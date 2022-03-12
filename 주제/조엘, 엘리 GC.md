@@ -54,7 +54,7 @@ Runtime data areas의 JVM의 메모리라고도 부른다
 ### GC는 언제 일어날까? (Minor GC, Major GC)
 Young gneration에서 발생하는 GC가 Minor GC, Old generation에서 발생하는 GC가 Major GC 라고부른다. <br>
 - 1. 새로운 객체가 Eden 영역에 할당된다.
-- 2. Edne이 꽉차면 Minro GC발생 (Mark and Sweep과정이일어남)
+- 2. Ed이 꽉차면 Minro GC발생 (Mark and Sweep과정이일어남)
 - 3. Eden영역에서 Mark된거 이제 Survivor0로 이동 (단 Survivor은 무조건 하나만 사용할 수 있다) 
 - 4. 살아남은 객체들 age증가
 - 5. 다시 Eden시작 그런데 자리없으면 이제 살아남은 객체들은 Survivor1로이동
