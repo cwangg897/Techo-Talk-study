@@ -3,7 +3,7 @@
 - 엘리의 GC <https://www.youtube.com/watch?v=Fe3TVCEJhzo>
 https://jeong-pro.tistory.com/148
 
-### GC(Garbage Collectior)란?
+### GC(Garbage Collector)란?
 <pre>
 GC 는 JVM 상에서 더 이상 사용되지 않는 데이터가 할당되어있는 메모리를 해제시켜주는 장치입니다. 
 JVM 에서 자동으로 동작하기 때문에 Java 는 특별한 경우가 아니면 메모리 관리를 개발자가 직접 해줄 필요가 없습니다. 
